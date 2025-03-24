@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQI Navigate - Breathe Better, Travel Smarter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AQI Navigate</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#report">Report</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="download-btn">
+                <a href="#download">Download</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image-container">
+            <div class="hero-content">
+                <h1 class="reveal-text">Breathe Better, Travel Smarter</h1>
+                <p class="hero-text reveal-text">AQI Navigate helps pedestrians and cyclists find routes with better air quality for healthier journeys.</p>
+            </div>
+            <div class="hero-image" id="heroImage">
+                <img src="screenshot/Map主页(带图例).jpeg" alt="AQI Navigate Main Interface">
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <p>Scroll to explore</p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title reveal-text">Innovative Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>Air Quality Maps</h3>
+                    <p>Real-time visualization of air quality data overlaid on maps, helping you choose the healthiest route.</p>
+                </div>
+                <div class="feature-card fade-in delay-1">
+                    <div class="feature-icon"><i class="fas fa-route"></i></div>
+                    <h3>Smart Routing</h3>
+                    <p>Choose between the quickest route or the route with the best air quality based on your priorities.</p>
+                </div>
+                <div class="feature-card fade-in delay-2">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Community Reports</h3>
+                    <p>Contribute to and benefit from crowd-sourced air quality data from the entire user community.</p>
+                </div>
+                <div class="feature-card fade-in delay-3">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Device Integration</h3>
+                    <p>Connect with Tesla vehicles, portable air quality monitors, or action cameras to collect and share data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map" class="map-section">
+        <div class="container">
+            <div class="text-content scroll-trigger">
+                <h2 class="section-title">Smart Navigation</h2>
+                <p>Find the healthiest route for your journey with our innovative mapping system that prioritizes air quality.</p>
+                <ul class="feature-list">
+                    <li><span class="highlight">Real-time traffic conditions</span> displayed on the map</li>
+                    <li>Search for places and routes with our intuitive search bar</li>
+                    <li>Choose between <span class="highlight">best air quality route</span> or <span class="highlight">shortest distance</span></li>
+                    <li>Turn-by-turn directions guide you throughout your journey</li>
+                </ul>
+            </div>
+            <div class="image-showcase parallax-element">
+                <img src="screenshot/导航路径选项(fastest:balanced:better Air quality).png" alt="Route Options" class="feature-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="report" class="report-section">
+        <div class="container reversed">
+            <div class="image-showcase parallax-element">
+                <div class="image-slider">
+                    <img src="screenshot/Report页主页.png" alt="Report Screen" class="feature-image active">
+                    <img src="screenshot/Pair device页面.png" alt="Device Pairing" class="feature-image">
+                    <img src="screenshot/Report issue页面.png" alt="Issue Reporting" class="feature-image">
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+            <div class="text-content scroll-trigger">
+                <h2 class="section-title">Community Contribution</h2>
+                <p>Share air quality data and help others make informed decisions about their routes.</p>
+                <ul class="feature-list">
+                    <li>Share data from your air quality monitoring devices</li>
+                    <li>Mark areas with construction dust, odors, or other air quality concerns</li>
+                    <li>Anonymous reporting ensures your privacy and safety</li>
+                    <li>Connect with various devices like Tesla vehicles, portable monitors, and action cameras</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="report-types">
+        <div class="container">
+            <h2 class="section-title reveal-text">Report Air Quality Issues</h2>
+            <div class="report-grid">
+                <div class="report-card fade-in">
+                    <img src="screenshot/Report issue页面 已选construction.png" alt="Construction Report" class="report-image">
+                    <h3>Construction</h3>
+                    <p>Alert others about road construction that may affect air quality in the area.</p>
+                </div>
+                <div class="report-card fade-in delay-1">
+                    <img src="screenshot/Report issue页面 已选dust.png" alt="Dust Report" class="report-image">
+                    <h3>Dust</h3>
+                    <p>Mark areas with excessive dust particles in the air for others to avoid.</p>
+                </div>
+                <div class="report-card fade-in delay-2">
+                    <img src="screenshot/Report issue页面 已选odor.png" alt="Odor Report" class="report-image">
+                    <h3>Odor</h3>
+                    <p>Identify locations with unpleasant smells or potentially harmful airborne chemicals.</p>
+                </div>
+            </div>
+            <div class="thank-you-message parallax-element">
+                <img src="screenshot/Report issue页面 提交成功 感谢对社区的贡献.png" alt="Thank You Message" class="thank-you-image">
+                <p class="caption">Your contributions help build a healthier community for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="text-content scroll-trigger">
+                <h2 class="section-title">About AQI Navigate</h2>
+                <p>Designed for pedestrians and cyclists, AQI Navigate helps you find healthier, safer routes for your journeys.</p>
+                <ul class="feature-list">
+                    <li>Uses Apple's official MapKit interface for map data and traffic information</li>
+                    <li>Color-coded air quality indicators (green = good, yellow = moderate, red = poor)</li>
+                    <li>Icons for problem areas (construction, dust, odor)</li>
+                    <li>Complete privacy with anonymous data sharing</li>
+                </ul>
+            </div>
+            <div class="image-showcase parallax-element">
+                <img src="screenshot/about页面主页.png" alt="About Screen" class="feature-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="device-pairing">
+        <div class="container">
+            <h2 class="section-title reveal-text">Connect Your Devices</h2>
+            <p class="subtitle reveal-text">Pair with compatible devices to automatically collect and share air quality data.</p>
+            
+            <div class="devices-showcase">
+                <div class="device fade-in">
+                    <div class="device-icon"><i class="fas fa-car"></i></div>
+                    <h3>Tesla Vehicles</h3>
+                    <p>Pair with Tesla vehicles equipped with air quality monitoring features.</p>
+                    <p>Automatically collect and upload air quality data while driving.</p>
+                    <a href="#" class="pair-btn">Pair</a>
+                </div>
+                <div class="device fade-in delay-1">
+                    <div class="device-icon"><i class="fas fa-wind"></i></div>
+                    <h3>Portable Air Quality Monitors</h3>
+                    <p>Ideal for carrying while walking or cycling.</p>
+                    <p>Upload real-time air quality data along your route to the map.</p>
+                    <a href="#" class="pair-btn">Pair</a>
+                </div>
+                <div class="device fade-in delay-2">
+                    <div class="device-icon"><i class="fas fa-camera"></i></div>
+                    <h3>Action Cameras</h3>
+                    <p>Automatically detect road dust, construction, or pollution through visual recognition.</p>
+                    <p>Share the results on the map for other users to view.</p>
+                    <a href="#" class="pair-btn">Pair</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="development-section">
+        <div class="container">
+            <h2 class="section-title reveal-text">Development</h2>
+            <div class="dev-content">
+                <div class="dev-image fade-in">
+                    <img src="screenshot/开发截图.jpg" alt="Development Screenshot">
+                </div>
+                <p class="copyright-notice">Software developed by Zhengling Li using Xcode. Any form of redistribution or commercial use is strictly prohibited.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="cta-section">
+        <div class="container">
+            <h2 class="section-title reveal-text">Download AQI Navigate</h2>
+            <p class="cta-text reveal-text">Start breathing better on your journeys today.</p>
+            <div class="app-store-badge fade-in">
+                <a href="#" class="download-link">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>AQI Navigate</h3>
+                    <p>Breathe better, travel smarter.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#map">Smart Navigation</a></li>
+                        <li><a href="#report">Community Reports</a></li>
+                        <li><a href="#about">About the App</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-developer">
+                <h3>Contact Developers</h3>
+                <p>Scan the QR code to connect with us on WeChat</p>
+                <div class="qr-code">
+                    <img src="screenshot/微信二维码.jpg" alt="WeChat QR Code">
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 AQI Navigate. All rights reserved. Created by 李政霖 and 郭馨蔓.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
