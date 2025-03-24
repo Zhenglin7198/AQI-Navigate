@@ -1,3 +1,4 @@
+官方网站: https://aqi-navigate.vercel.app/
 AQI Navigate - 呼吸更好，出行更智能
 应用简介:
 AQI Navigate是一款专为行人和骑行用户设计的iOS地图应用，帮助用户寻找空气质量更佳的出行路线。通过实时显示空气质量数据和智能路线规划，为您的每一次出行提供更健康的选择。
@@ -23,6 +24,7 @@ AQI Navigate是一款专为行人和骑行用户设计的iOS地图应用，帮�
 
 目标用户:常步行以及骑行的用户
 
+official website: https://aqi-navigate.vercel.app/
 AQI Navigate - Breathe Better, Travel Smarter
 App Introduction
 AQI Navigate is an iOS map application designed specifically for pedestrians and cyclists, helping users find routes with better air quality. Through real-time air quality data display and smart route planning, it provides healthier choices for your every journey.
